@@ -293,7 +293,7 @@ sensor:
   - platform: qmc5883l
     id: ${prefix_id}qmc5883l_id
     i2c_id: ${prefix_id}i2c_bus
-    address: 0x0D
+    address: 0x2C
     field_strength_x:
       id: ${prefix_id}qmc5883l_axis_x
       name: ${prefix_name}Magnetic Field Strength X
