@@ -289,8 +289,8 @@ sensor:
     filters:
       - delta: 3
 
-  # https://esphome.io/components/sensor/qmc5883l.html
-  - platform: qmc5883l
+  # https://esphome.io/components/sensor/qmc5883l.html, was qmc5883l, but testing for qmc5883p chipset
+  - platform: qmc5883p
     id: ${prefix_id}qmc5883l_id
     i2c_id: ${prefix_id}i2c_bus
     address: 0x2C
